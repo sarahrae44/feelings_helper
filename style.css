@@ -30,30 +30,24 @@ li {
   text-align: center;
 }
 
-#happy {
-  background-image: url('images/happy.jpg');
+.backgroundImages {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#happy {
+  background-image: url('images/happy.jpg');
 }
 
 #soso {
   background-image: url('images/soso.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #sad {
   background-image: url('images/sad.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #angry {
   background-image: url('images/angry.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
