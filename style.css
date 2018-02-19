@@ -12,11 +12,48 @@ ul {
   list-style: none;
   display: flex;
   width: 100%;
+  justify-content: space-evenly;
+  padding: 0;
 }
 
 li {
+  display: flex;
   justify-content: center;
   padding: 20px;
-  margin-left: -5%;
-  margin-right: 5%;
+  align-items: stretch;
+  flex-basis: 20%;
+  border: solid gold 2px;
+  border-radius: 10px;
+  margin: 5px;
+  min-height: 100px;
+  flex-direction: column;
+  text-align: center;
+}
+
+#happy {
+  background-image: url('images/happy.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#soso {
+  background-image: url('images/soso.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#sad {
+  background-image: url('images/sad.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#angry {
+  background-image: url('images/angry.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
