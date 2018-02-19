@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+}
+
+li {
+  justify-content: center;
+  padding: 20px;
+  margin-left: -5%;
+  margin-right: 5%;
+}
